@@ -4,8 +4,8 @@
  */
 
 `default_nettype none
-
-module tt_um_example (
+// This porject was a collaboration between me(arghunter) and the other collaborators on this repository (Acknowledged in the ReadMe)
+module tt_um_supermic_arghunter (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
