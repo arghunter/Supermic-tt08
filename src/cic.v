@@ -3,7 +3,7 @@ module cic (
     lr_clk,
     i_reset,
     i_data,
-    o_data,
+    o_data
     );
     
     parameter IW=19, OW=19, R=16, N=3;
