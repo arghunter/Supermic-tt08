@@ -21,6 +21,7 @@ PROJECT_SOURCES += delay_module.v
 PROJECT_SOURCES += mux_shift.v
 PROJECT_SOURCES += i2s_bus.v
 PROJECT_SOURCES += supermic_top_module.v
+PROJECT_SOURCES += full_adder.v
 
 ifneq ($(GATES),yes)
 
