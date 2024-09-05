@@ -8,7 +8,6 @@ module adder_16x23bit (
     input [18:0] in_5,
     input [18:0] in_6,
     input [18:0] in_7,
-    input [18:0] in_8,
     output [21:0] sum,
     output carry_out
 );
