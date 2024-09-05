@@ -1,7 +1,7 @@
 module comb (
     lr_clock,
     i_data,
-    o_data,
+    o_data
     );
 
     parameter IW=19, OW=19, N=1; //IW = input bitwidth, OW = output bitwidth, N ...
