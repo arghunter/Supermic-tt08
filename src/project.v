@@ -18,7 +18,7 @@ module tt_um_supermic_arghunter (
 wire rst;
   // All output pins must be assigned. If not used, assign to 0.
   // assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
-  assign uio_out[4:0] = 0;
+    assign uio_out[7:2] = 0;
   assign uio_oe[4:0]  = 0;
   assign uio_oe[6:5]  = 1;
   assign uio_oe[7]  = 0;
@@ -30,8 +30,8 @@ wire rst;
         .lr_clk(ui_in[1]),
         .delay_select(uio_in[4:0]),
         .pdm(ui_in[5:2]),
-        .i2s_out(uio_out[5]),
-        .mic_clk(uio_out[6]),
+        .i2s_out(uio_out[0]),
+        .mic_clk(uio_out[1]),
         .cic_out(uo_out)
     );    
   endgenerate
