@@ -15,7 +15,7 @@ module supermic_top_module(
     wire [18:0] delayed_data [7:0];
     wire carry;
     wire [21:0] sum_out;
-
+    assign mic_clk = lr_clk;
     genvar i;
     generate
         // DDR to sdr
@@ -96,7 +96,7 @@ module supermic_top_module(
         end
     endgenerate
 
-assign mic_clk = lr_clk;
+
 
 
 endmodule
