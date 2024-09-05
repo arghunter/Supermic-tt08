@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2024 Your Name
+ * Copyright (c) 2024 Armaan Gomes and Friends
  * SPDX-License-Identifier: Apache-2.0
  */
 
 `default_nettype none
-// This porject was a collaboration between me(arghunter) and the other collaborators on this repository (Acknowledged in the ReadMe)
+// This project was a collaboration between me(arghunter) and the other collaborators on this repository (Acknowledged in the ReadMe)
 module tt_um_supermic_arghunter (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
