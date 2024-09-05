@@ -23,6 +23,7 @@ wire rst;
   assign uio_oe[6:5]  = 1;
   assign uio_oe[7]  = 0;
   assign rst = !rst_n;
+  assign uio_out[6] = 0;
   generate
     supermic_top_module u_supermic_top_module (
         .clk(ui_in[0]),
@@ -31,7 +32,6 @@ wire rst;
         .delay_select(uio_in[4:0]),
         .pdm(ui_in[5:2]),
         .i2s_out(uio_out[5]),
-        .mic_clk(uio_out[6]),
         .cic_out(uo_out)
     );    
   endgenerate
