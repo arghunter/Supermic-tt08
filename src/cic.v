@@ -17,7 +17,6 @@ module cic (
     input wire lr_clk, i_reset, i_data;
     
     output wire [(OW-1):0] o_data;
-    wire [(IW-1):0] mid_data;
     wire [(OW-1):0] comb_data [0:N];
 
 
