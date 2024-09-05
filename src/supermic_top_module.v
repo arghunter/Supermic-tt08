@@ -6,7 +6,7 @@ module supermic_top_module(
     input wire [3:0] pdm,
     output wire i2s_out,
     output wire mic_clk,
-	output wire [7:0] cic_out,
+    output wire [7:0] cic_out
 
 	
 );
